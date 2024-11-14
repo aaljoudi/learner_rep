@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cmath>
 
+#include "wheel.cpp";
+
 using namespace std;
 
 class Tree {
