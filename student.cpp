@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 
-#include "wheel.cpp";
+#include "wheel.h";
 
 using namespace std;
 
@@ -49,4 +49,10 @@ int main() {
     double h = dandy.getHeight();
 
     cout << dandy.calcWeight(h, 2) << endl;
+
+    Wheel luxury (22.5, "Arctic White");
+
+    cout << "Your car has " << luxury.getDiameter() 
+         << "in wheels in a gorgeous " << luxury.getColor() << " color" 
+         << endl;
 }
